@@ -2,3 +2,12 @@
 # http://postolenko.github.io/okiro_keys/catalog.html
 # http://postolenko.github.io/okiro_keys/card.html
 # http://postolenko.github.io/okiro_keys/news.html
+# http://postolenko.github.io/okiro_keys/news_single.html
+# http://postolenko.github.io/okiro_keys/basket.html
+# http://postolenko.github.io/okiro_keys/comparison.html
+# http://postolenko.github.io/okiro_keys/contacts.html
+# http://postolenko.github.io/okiro_keys/delivery.html
+# http://postolenko.github.io/okiro_keys/politic.html
+# http://postolenko.github.io/okiro_keys/predoplata.html
+# http://postolenko.github.io/okiro_keys/remont.html
+# http://postolenko.github.io/okiro_keys/sotrudnichestvo.html

@@ -913,7 +913,7 @@ textarea:focus {
     position: relative;
     width: 126px;
     min-height: 125px;
-    padding: 0 3px;
+    padding: 0 3px 5px 3px;
 }
 
 .catalog_wrapp .catalog_item {
@@ -1007,7 +1007,7 @@ textarea:focus {
     cursor: pointer;
     position: relative;
     top: 6px;
-    z-index: 11;
+    z-index: 14;
     border: 1px solid transparent;
 }
 
@@ -1015,7 +1015,7 @@ textarea:focus {
     display: block;
     width: 27px;
     height: 2px;
-    background: #466896;
+    background: #ab121f;
     margin: 0 auto 7px auto;
     -webkit-transition-property: transform, border, background;
     -webkit-transition-duration: .3s;
@@ -1048,7 +1048,7 @@ textarea:focus {
 }
 
 .respmenubtn:hover span {
-    background: #e9ba5f;
+    background: #ab121f;
 }
 
 .respmenubtn.active span {
@@ -1056,7 +1056,7 @@ textarea:focus {
     width: 35px;
     top: 2px;
     left: 0;
-    background: #e9ba5f;
+    background: #ab121f;
 }
 
 .respmenubtn.active span:last-child {
@@ -1082,6 +1082,10 @@ textarea:focus {
 }
 
 /* ----- / Responsive Menu Button ------ */
+
+.sign_list.black {
+    display: none;
+}
 
 /*-------------------------------------------*/
 /* ----- CONTENT ------ */
@@ -1110,6 +1114,7 @@ textarea:focus {
     background-position: center;
     height: 600px;
     padding-left: 75px;
+    padding-right: 20px;
 }
 
 .promo_slider .slide_descript {
@@ -1232,6 +1237,8 @@ textarea:focus {
 }
 
 .catalog_item_single .img_box img {
+    display: block;
+    max-width: 100%;
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -1362,6 +1369,8 @@ textarea:focus {
 .article .left {
     width: calc(100% - 651px);
     padding: 45px 0 0 0;
+    position: relative;
+    z-index: 2;
 }
 
 .article .right {
@@ -1378,6 +1387,11 @@ textarea:focus {
     -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, .25);
     border-radius: 5px;
     -webkit-border-radius: 5px;
+}
+
+.article_descript > div {
+    position: relative;
+    z-index: 2;
 }
 
 .article_descript:before {
@@ -1771,7 +1785,8 @@ textarea:focus {
 
 .news_thumb {
     display: block;
-    width: 327px;
+    width: 100%;
+    max-width: 327px;
     cursor: pointer;
     position: relative;
     padding: 21px 20px 10px 20px;

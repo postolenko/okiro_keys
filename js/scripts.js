@@ -83,7 +83,27 @@ $(document).ready(function() {
           speed: 1200,
           slidesToShow: 4,
           slidesToScroll: 1,
-          appendArrows: ".slider_news_arrows"
+          appendArrows: ".slider_news_arrows",
+          responsive: [
+            {
+              breakpoint: 1124,
+              settings: {
+                slidesToShow: 3
+              }
+            },
+            {
+              breakpoint: 800,
+              settings: {
+                slidesToShow: 2
+              }
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 1
+              }
+            }
+          ]
       });
     }
 
@@ -328,5 +348,40 @@ $(document).ready(function() {
     }
 
     // ------------
+
+    $(".respmenubtn").click(function(e) {
+        e.preventDefault();
+        if( $("#resp_nav").is(":hidden") ) {
+            $("#resp_nav").fadeIn(300);
+            $(this).addClass("active");
+        } else {
+            $("#resp_nav").fadeOut(300);
+            $(this).removeClass("active");
+        }
+    });
+    
+    $(this).keydown(function(eventObject){
+        if (eventObject.which == 27 &&
+            $("#resp_nav").is(":visible") &&
+            bodyWidth <= 1024) {
+                $("#resp_nav").fadeOut(300);
+                $(".respmenubtn").removeClass("active");
+        }
+    });
+
+    // ----------
+
+    $(".main_nav li a .btn_down").on("click", function(e) {
+      e.preventDefault();
+      parentBlock = $(this).closest("li");
+      dropdownCatalog = parentBlock.find(".catalog_wrapp");
+      if(dropdownCatalog.is(":hidden")) {
+        dropdownCatalog.slideDown(300);
+        $(this).closest("a").addClass("active");
+      } else {
+        dropdownCatalog.slideUp(300);
+        $(this).closest("a").removeClass("active");
+      }
+    });
 
 });

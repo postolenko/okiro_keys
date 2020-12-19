@@ -216,21 +216,26 @@ $(document).ready(function() {
           prevArrow: $("#topBtn"),
           nextArrow: $("#bottomBtn"),
           verticalSwiping: true,
-          // responsive: [
-          //   {
-          //     breakpoint: 767,
-          //     settings: {
-          //       vertical: false,
-          //     }
-          //   },
-          //   {
-          //     breakpoint: 480,
-          //     settings: {
-          //       vertical: false,
-          //       slidesToShow: 2
-          //     }
-          //   }
-          // ]
+          responsive: [
+            {
+              breakpoint: 600,
+              settings: {
+                vertical: false,
+                slidesToShow: 4,
+                verticalSwiping: false,
+                variableWidth: true
+              }
+            },
+            // {
+            //   breakpoint: 480,
+            //   settings: {
+            //     vertical: false,
+            //     slidesToShow: 4,
+            //     verticalSwiping: false,
+            //     variableWidth: true
+            //   }
+            // }
+          ]
       });
     }
 
@@ -381,6 +386,16 @@ $(document).ready(function() {
       } else {
         dropdownCatalog.slideUp(300);
         $(this).closest("a").removeClass("active");
+      }
+    });
+
+    // --------------
+
+    $("#filtersBtn").on("click", function(e) {
+      if( $("#catalogSidebar").is(":hidden") ) {
+        $("#catalogSidebar").slideDown(700);
+      } else {
+        $("#catalogSidebar").slideUp(700);
       }
     });
 

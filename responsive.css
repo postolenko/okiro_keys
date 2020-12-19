@@ -43,6 +43,40 @@
 
 	/*-- /Section 2 - Main Page --*/
 
+	/*-- Section 1 - Catalog --*/
+
+	.good_item {
+	    width: calc(25% - 30px);
+	}
+
+	/*-- /Section 1 - Catalog --*/
+
+	/*-- Section 1 - Card --*/
+
+	.two_cols_3 {
+		flex-wrap: wrap;
+		-webkit-flex-wrap: wrap;
+	}
+
+	.two_cols_3 > div {
+	    width: 100%;
+	    padding: 5px 0;
+	}
+
+	/*-- /Section 1 - Card --*/
+
+}
+
+@media only screen and (max-width: 1300px) {
+
+/*-- Section 1 - News --*/
+
+.news_thumb_2 {
+    width: calc(50% - 20px);
+}
+
+/*-- /Section 1 - News --*/
+
 }
 
 @media only screen and (max-width: 1240px) {
@@ -84,7 +118,6 @@
 
 	.header_center > .col_1 {
 	    width: calc(50% - 100px);
-	    /*padding: 10px 10px 10px 0;*/
 	}
 
 	.header_center > .col_2 {
@@ -93,7 +126,6 @@
 
 	.header_center > .col_3 {
 	    width: calc(50% - 100px);
-	    /*padding: 10px 0 10px 10px;*/
 	}
 
 	.soc_list {
@@ -117,6 +149,14 @@
 	}
 
 	/*-- /Header --*/
+
+	/*-- Section 1 - Catalog --*/
+
+	.good_item {
+	    width: calc(33.33% - 30px);
+	}
+
+	/*-- /Section 1 - Catalog --*/
 
 }
 
@@ -218,6 +258,10 @@
 
 @media only screen and (max-width: 1024px) {
 
+	h1 {
+	    font-size: 39px;
+	}
+
 	/*-- Header --*/
 
 	.promo_slider .slide {
@@ -243,6 +287,74 @@
 	}
 
 	/*-- /Section 4 - Main Page --*/
+
+	/*-- Section 1 - Catalog --*/
+
+	.catalog_templ .left {
+	    width: 280px;
+	}
+
+	.catalog_templ .right {
+	    width: calc(100% - 280px);
+	}
+
+	.sl_inputs > div:nth-child(1) {
+	    width: 57px;
+	}
+
+	.sl_inputs > div:nth-child(2) {
+	    width: calc(100% - 57px);
+	}
+
+	.sl_inputs h3 {
+	    font-size: 15px;
+	    line-height: 18px;
+	}
+
+	/*-- /Section 1 - Catalog --*/
+
+	/*-- Section 1 - Card --*/
+
+	.card_templ {
+		display: block;
+	}
+
+	.card_templ .left {
+		width: 100%;
+		max-width: 500px;
+	    margin: 10px auto;
+	}
+
+	.card_templ .right {
+	    width: 100%;
+	    padding: 10px 0;
+	}
+
+	/*-- /Section 1 - Card --*/
+
+	/*-- Section 1 - Card --*/
+
+	.two_cols_4 {
+		display: block;
+	}
+
+	.two_cols_4 > .col_1,
+	.two_cols_4 > .col_2 {
+	    width: 100%;
+	    padding: 15px 0;
+	}
+
+	.table_wrapp {
+		max-width: 480px;
+	}
+
+	.red_pill_3 {
+	    width: 120px;
+	    min-width: 120px;
+	    padding: 7px 10px;
+	}
+
+	/*-- /Section 1 - Card --*/
 
 	/*-- Footer --*/
 
@@ -332,6 +444,10 @@
 	    height: 20px;
 	    font-size: 12px;
 	    line-height: 20px;
+	}
+
+	.main_nav_wrapp:after {
+		display: none;
 	}
 
 	#resp_nav {
@@ -464,7 +580,86 @@
 
 	/*-- /Section 3 - Main Page --*/
 
+	/*-- Section 1 - Catalog --*/
 
+	.catalog_templ {
+		display: block;
+		margin: 10px 0;
+	}
+
+	.catalog_templ .left {
+	    width: 100%;
+	    padding-right: 0;
+	}
+
+	.catalog_templ .right {
+	    width: 100%;
+	    padding: 15px 0 0 0;
+	}
+
+	.filters_btn {
+		display: flex;
+		display: -webkit-flex;
+		align-items: center;
+		-webkit-align-items: center;
+		justify-content: center;
+		-webkit-justify-content: center;
+		width: 100%;
+		padding: 10px 10px;
+		cursor: pointer;
+		font-size: 24px;
+		line-height: 26px;
+		color: #fff;
+		border: none;
+	    -webkit-transition-property: box-shadow;
+	    -webkit-transition-duration: .3s;
+	    -webkit-transition-timing-function: ease;
+
+	    -moz-transition-property: box-shadow;
+	    -moz-transition-duration: .3s;
+	    -moz-transition-timing-function: ease;
+
+	    -ms-transition-property: box-shadow;
+	    -ms-transition-duration: .3s;
+	    -ms-transition-timing-function: ease;
+
+	    -o-transition-property: box-shadow;
+	    -o-transition-duration: .3s;
+	    -o-transition-timing-function: ease;
+
+	    transition-property: box-shadow;
+	    transition-duration: .3s;
+	    transition-timing-function: ease;
+	}
+
+	.filters_btn:hover {
+	    -webkit-box-shadow: 0 2px 5px 0 rgba(234,3,12,.5);
+	    -moz-box-shadow: 0 2px 5px 0 rgba(234,3,12,.5);
+	    box-shadow: 0 2px 5px 0 rgba(234,3,12,.5);
+	}
+
+	#catalogSidebar {
+		display: none;
+	}
+
+	/*-- /Section 1 - Catalog --*/
+
+}
+
+@media only screen and (max-width: 830px) {
+
+	/*-- Section 1 - News --*/
+
+	.news_thumbs {
+	    margin: 0;
+	}
+
+	.news_thumb_2 {
+	    width: 100%;
+	    margin: 15px 0;
+	}
+
+	/*-- /Section 1 - News --*/
 
 }
 
@@ -472,6 +667,10 @@
 
 	.wrapper {
 		padding-top: 69px;
+	}
+
+	h1 {
+	    font-size: 30px;
 	}
 
 	h2 {
@@ -487,7 +686,7 @@
 		position: fixed;
 		top: 0;
 		left: 0;
-		z-index: 3;
+		z-index: 6;
 		-webkit-box-shadow: 0 2px 7px 0 rgba(0,0,0,.3);
 		-moz-box-shadow: 0 2px 7px 0 rgba(0,0,0,.3);
 		box-shadow: 0 2px 7px 0 rgba(0,0,0,.3);
@@ -634,6 +833,101 @@
 
 	/*-- /Section 5 - Main Page --*/
 
+	/*-- Section 1 - Catalog --*/
+
+	.fiters_sect {
+		display: block;
+		padding: 3px 17px 5px 25px;
+	}
+
+	.fiters_sect > .col_1,
+	.fiters_sect > .col_2 {
+	    width: 100%;
+	    padding: 0;
+	}
+
+	.fiters_sect > .col_2 {
+	    justify-content: flex-start;
+	    -webkit-justify-content: flex-start;
+	}
+
+	.custom_select_dropdown {
+	    left: 0;
+	}
+
+	.good_item {
+	    width: calc(50% - 30px);
+	}
+
+	/*-- /Section 1 - Catalog --*/
+
+	/*-- Section 1 - Card --*/
+
+	.card_slider {
+		display: block;
+	}
+
+	.card_slider .col_1 {
+	    width: 100%;
+	}
+
+	.card_slider .col_2 {
+	    width: 100%;
+	}
+
+	.big_slider {
+	    height: 300px;
+	}
+
+	.big_slider .slide .img_box {
+	    height: 300px;
+	}
+
+	.miniature_slider_wrapp {
+	    height: auto;
+	    padding: 0;
+	}
+
+	.miniature_slider_wrapp .top_btn {
+	    left: 15px;
+	}
+
+	.miniature_slider_wrapp .down_btn {
+	    left: 15px;
+	}
+
+	.miniature_slider {
+	    height: auto;
+	    width: calc(100% - 150px);
+	    margin-left: 73px;
+	}
+
+	.miniature_slider .slide {
+	    width: 76px;
+	    padding: 2px 2px;
+	}
+
+	.sl_btn {
+	    background: rgba(172, 144, 120, .5);
+	}
+
+	.miniature_slider_wrapp .top_btn {
+		top: 2px;
+	    left: 0;
+	  	transform: rotate(-90deg);
+	    -webkit-transform: rotate(-90deg);
+	}
+
+	.miniature_slider_wrapp .down_btn {
+		left: auto;
+		right: 0;
+		top: 2px;
+	    transform: rotate(-90deg);
+	    -webkit-transform: rotate(-90deg);
+	}
+
+	/*-- /Section 1 - Card --*/
+
 	/*-- Footer --*/
 
 	.footer_cols .col:nth-child(1) {
@@ -740,6 +1034,106 @@
 
 	/*-- /Section 3 - Main Page --*/
 
+	/*-- Section 1 - Card --*/
+
+	.sl_btn {
+		width: 50px;
+		height: 50px;
+	}
+
+	.miniature_slider {
+	    height: auto;
+	    width: calc(100% - 100px);
+	    margin-left: 50px;
+	}
+
+	.miniature_slider .slide .img_box {
+		width: 50px;
+		height: 50px;
+	}
+
+	/*-- /Section 1 - Card --*/
+
+	/*-- Section 1 - Card --*/
+
+	.table .table_row {
+		display: block;
+		padding: 2px 0;
+	}
+
+	.table .table_row .cell:nth-child(1),
+	.table .table_row .cell:nth-child(2) {
+	    width: 100%;
+	    padding: 3px 0;
+	}
+
+	/*-- /Section 1 - Card --*/
+
+}
+
+@media only screen and (max-width: 470px) {
+
+	/*-- Section 1 - News --*/
+
+	.news_thumb_2 {
+		display: block;
+		border-bottom: 1px solid #ededed;
+		margin: 10px 0;
+		padding-bottom: 15px;
+	}
+
+	.news_thumb_2 .col_2 {
+	    width: 100%;
+	    padding-top: 20px;
+	}
+
+	.thumb_title {
+	    min-height: 0;
+	    padding: 4px 0;
+	}
+
+	.news_thumb_2 .descript {
+	    min-height: 0;
+	    padding-bottom: 10px;
+	}
+
+	.pagination li a {
+	    min-width: 37px;
+	}
+
+	/*-- /Section 1 - News --*/
+
+}
+
+@media only screen and (max-width: 440px) {
+
+	/*-- Section 1 - Catalog --*/
+
+	.goods_catalog {
+	    margin: 3px 0 5px 0;
+	}
+
+	.good_item {
+	    width: 100%;
+	    max-width: 320px;
+	    margin: 10px auto;
+	}
+
+	/*-- /Section 1 - Catalog --*/
+
+	/*-- Section 1 - Card --*/
+
+	.price_inline {
+		display: block;
+	    margin: 0;
+	}
+
+	.price_inline > div {
+	    padding: 5px 0;
+	}
+
+	/*-- /Section 1 - Card --*/
+
 }
 
 @media only screen and (max-width: 400px) {
@@ -764,6 +1158,26 @@
 	}
 
 	/*-- /Section 3 - Main Page --*/
+
+	/*-- Section 1 - Card --*/
+
+	.item_cols {
+		display: block;
+	}
+
+	.item_cols > div:nth-child(1),
+	.item_cols > div:nth-child(2) {
+		width: 100%;
+	    padding: 0;
+	}
+
+	.social_list_2.social_list_3 {
+		justify-content: flex-start;
+	    -webkit-justify-content: flex-start;
+	    margin: 5px -6px;
+	}
+
+	/*-- /Section 1 - Card --*/
 
 }
 

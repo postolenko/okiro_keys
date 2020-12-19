@@ -1940,12 +1940,15 @@ textarea:focus {
 .breadcrumbs {
     display: flex;
     display: -webkit-flex;
-    margin: 4px -8px 0 -8px;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    margin: 4px -8px 18px -8px;
 }
 
 .breadcrumbs li {
     position: relative;
     padding: 0 8px;
+    line-height: 1;
 }
 
 .breadcrumbs li:after {
@@ -1957,7 +1960,7 @@ textarea:focus {
     line-height: 18px;
     color: #DCDCDC;
     position: absolute;
-    top: 7px;
+    top: 1px;
     right: -1px;
 }
 
@@ -2034,6 +2037,12 @@ textarea:focus {
 
 .filters_btn {
     display: none;
+    min-height: 33px;
+    background: #EA030C;
+    font-weight: bold;
+    font-size: 9.4px;
+    line-height: 10px;
+    color: #F2F2F2;
 }
 
 .catalog_sidebar_item {
@@ -2332,7 +2341,7 @@ textarea:focus {
     background: #FFFFFF;
     filter: drop-shadow(0 1px 4px rgba(0, 0, 0, .25));
     position: relative;
-    z-index: 2;
+    z-index: 4;
 }
 
 .fiters_sect > .col_1 {
@@ -2751,6 +2760,7 @@ p.price {
     -webkit-justify-content: center;
     text-align: center;
     min-height: 33px;
+    padding: 3px 5px;
     background: rgba(172, 144, 120, .15);
     font-weight: 500;
     font-size: 9px;
@@ -2851,7 +2861,7 @@ p.price {
 
 .miniature_slider_wrapp {
     height: 415px;
-    padding: 85px 30px;
+    padding: 80px 30px;
     position: relative;
     overflow: hidden;
 }
@@ -3448,6 +3458,7 @@ p.price {
 
 .news_thumb_2 .descript {
     min-height: 61px;
+    padding-bottom: 10px;
 }
 
 .news_thumb_2 .descript p {

@@ -2162,6 +2162,14 @@
 	}
 	/*-- /Section 1 - Sotrudnichestvo --*/
 
+	/*-- Section 1 - Basket --*/
+
+	.basket_table p.price {
+	    font-size: 16px;
+	}
+
+	/*-- /Section 1 - Basket --*/
+
 }
 
 @media only screen and (min-width: 901px) {

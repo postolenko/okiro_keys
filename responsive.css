@@ -979,6 +979,12 @@
 	    width: 100%;
 	}
 
+	#formLeft.fixed {
+		margin: 0 auto !important;
+	    position: relative !important;
+	    right: 0 !important;
+	}
+
 	/*-- /Section 1 - Predoplata --*/
 
 	/*- Section 1 - Basket --*/

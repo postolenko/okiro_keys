@@ -65,6 +65,39 @@
 
 	/*-- /Section 1 - Card --*/
 
+	/*-- Section 1 - Sotrudnichestvo --*/
+
+	.thumb_3 .icon_box {
+	    width: 150px;
+	    height: 150px;
+	    margin: 5px auto 20px auto;
+	}
+
+	.thumb_3 .descript p {
+		font-size: 19px;
+		line-height: 23px;
+	}
+
+	/*-- /Section 1 - Sotrudnichestvo --*/
+
+	/*-- Section 1 - Contacts --*/
+
+	.two_cols_5 > .col_1 {
+	    width: 340px;
+	    padding-right: 10px;
+	}
+
+	.two_cols_5 > .col_2 {
+	    width: calc(100% - 340px);
+	}
+
+	.info_thumb p {
+	    font-size: 19px;
+	    line-height: 20px;
+	}
+
+	/*-- /Section 1 - Contacts --*/
+
 }
 
 @media only screen and (max-width: 1300px) {
@@ -157,6 +190,46 @@
 	}
 
 	/*-- /Section 1 - Catalog --*/
+
+	/*-- Section 1 - Contacts --*/
+
+	.contacts_thumbs_2 {
+	    flex-wrap: wrap;
+	    -webkit-flex-wrap: wrap;
+	}
+
+	.contact_thumb_2 {
+	    width: calc(50% - 20px);
+	}
+
+	/*-- /Section 1 - Contacts --*/
+
+	/*-- Section 1 - Basket --*/
+
+	.basket_templ {
+		display: block;
+	}
+
+	.basket_templ > .left {
+		width: 100%;
+		padding: 10px 0;
+	}
+
+	.basket_templ > .right {
+		width: 100%;
+	    max-width: 600px;
+	    padding-top: 20px;
+	}
+
+	.basket_templ_footer {
+	    margin-top: 20px;
+	}
+
+	.basket_templ_footer_title {
+	    padding: 10px 0;
+	}
+
+	/*-- /Section 1 - Basket --*/
 
 }
 
@@ -254,12 +327,57 @@
 
 	/*-- /Section 3 - Main Page --*/
 
+	/*-- Section 1 - Contacts --*/
+
+	.contacts_thumbs {
+	    margin: 10px 0;
+	}
+
+	.contacts_thumb {
+		width: 100%;
+	}
+
+	/*-- /Section 1 - Contacts --*/
+
+	/*-- Section 1 - Predoplata --*/
+
+	.predoplata_templ > .left {
+	    width: 400px;
+	    padding-right: 30px;
+	}
+
+	.predoplata_templ > .right {
+	    width: calc(100% - 400px);
+	}
+
+	.num_item > div:nth-child(1) {
+	    width: 20px;
+	    padding-top: 0;
+	}
+
+	.num_item p {
+	    font-size: 16px;
+	    line-height: 22px;
+	}
+
+	p.num {
+	    font-size: 16px;
+	    line-height: 22px;
+	}
+
+	/*-- /Section 1 - Predoplata --*/
+
 }
 
 @media only screen and (max-width: 1024px) {
 
 	h1 {
 	    font-size: 39px;
+	}
+
+	.h2_wrapp_2 h2 {
+	    font-size: 39px;
+	    line-height: 44px;
 	}
 
 	/*-- Header --*/
@@ -355,6 +473,67 @@
 	}
 
 	/*-- /Section 1 - Card --*/
+
+	/*-- Section 1 - News Single --*/
+
+	.textarea_wrapp textarea {
+	    height: 114px;
+	    padding: 10px;
+	    font-size: 18px;
+	    line-height: 22px;
+	}
+
+	.commetns_form_footer {
+	    padding: 10px 10px;
+	}
+
+	.checkbox_grey label {
+	    font-size: 16px;
+	    line-height: 22px;
+	}
+
+	.inlines p {
+	    font-size: 16px;
+	    line-height: 22px;
+	}
+
+	.blue_link {
+	    font-size: 16px;
+	    line-height: 22px;
+	}
+
+	.brovn_pill {
+	    padding: 5px 10px;
+	    font-size: 18px;
+	    line-height: 25px;
+	}
+
+	/*-- /Section 1 - News Single --*/
+
+	/*-- Section 1 - Delivery --*/
+
+	.h1_wrapp p,
+	.h1_wrapp p a {
+	    font-size: 18px;
+	    line-height: 24px;
+	}
+
+	/*-- /Section 1 - Delivery --*/
+
+	/*-- Section 1 - Predoplata --*/
+
+	.form_wrapp {
+		margin: 14px auto;
+	    padding: 14px 25px 5px 25px;
+	}
+
+	.red_pill_sub {
+	    min-width: 124px;
+	    font-size: 16px;
+	    line-height: 17px;
+	}
+
+	/*-- /Section 1 - Predoplata --*/
 
 	/*-- Footer --*/
 
@@ -644,6 +823,221 @@
 
 	/*-- /Section 1 - Catalog --*/
 
+	/*-- Section 1 - News Single --*/
+
+	.article_2 img {
+		display: none;
+	}
+
+	.article_2 p {
+	    padding: 10px 0;
+	    font-size: 16px;
+	    line-height: 27px;
+	}
+
+	.article_2 h3 {
+	    padding: 10px 0;
+	    font-size: 16px;
+	    line-height: 27px;
+	}
+
+	.article_2 h4 {
+	    padding: 10px 0;
+	    font-size: 16px;
+	    line-height: 27px;
+	}
+
+	.article_2 ul {
+	    padding: 10px 0;
+	}
+
+	.article_2 ul li {
+	    font-size: 16px;
+	    line-height: 27px;
+	}
+
+	.article_2 ol {
+	    padding: 10px 0;
+	}
+
+	.article_2 ol li {
+	    text-indent: 25px;
+	    font-size: 16px;
+	    line-height: 27px;
+	}
+
+	.article_2 ol li:before {
+	    top: 14px;
+	    left: 14px;
+	}
+
+	.black_box p {
+	    font-size: 15px;
+	    line-height: 18px;
+	}
+
+	/*-- /Section 1 - News Single --*/
+
+	/*-- Section 1 - News Single --*/
+
+	.commetns_form_footer {
+		display: block;
+	}
+
+	.commetns_form_footer > div:nth-child(1),
+	.commetns_form_footer > div:nth-child(2) {
+	    width: 100%;
+	    padding: 2px 0;
+	}
+
+	/*-- /Section 1 - News Single --*/
+
+	/*-- Section 1 - Delivery --*/
+
+	.delivery_thumbs {
+		display: block;
+		margin: 10px 0;
+	}
+
+	.delivery_thumb {
+	    width: 100%;
+	    margin: 10px 0;
+	}
+
+	/*-- /Section 1 - Delivery --*/
+
+	/*-- Section 1 - Sotrudnichestvo --*/
+
+	.thumb_3 .icon_box {
+	    width: 120px;
+	    height: 120px;
+	}
+
+	.thumb_3 .descript p {
+	    font-size: 15px;
+	    line-height: 20px;
+	}
+
+	/*-- /Section 1 - Sotrudnichestvo --*/
+
+	/*-- Section 1 - Remont --*/
+
+	.info_box_3 p {
+	    font-size: 16px;
+	    line-height: 25px;
+	}
+
+	.rem_thumb .img_box {
+	    height: 250px;
+	    margin: 25px 0;
+	}
+
+	.rem_thumb h3 {
+	    font-size: 20px;
+	    line-height: 27px;
+	}
+
+	.rem_thumb p {
+	    font-size: 16px;
+	    line-height: 25px;
+	}
+
+	/*-- /Section 1 - Remont --*/
+
+	/*-- Section 1 - Contacts --*/
+
+	.two_cols_5 {
+		flex-wrap: wrap;
+		-webkit-flex-wrap: wrap;
+	    margin: 33px 0;
+	}
+
+	.two_cols_5 > .col_1 {
+	    width: 100%;
+	    padding-right: 0;
+	}
+
+	.two_cols_5 > .col_2 {
+	    width: 100%;
+	}
+
+	/*-- /Section 1 - Contacts --*/
+
+	/*-- Section 1 - Predoplata --*/
+
+	.predoplata_templ {
+		display: block;
+	    margin: 20px 0;
+	}
+
+	.predoplata_templ > .left {
+	    width: 100%;
+	    padding-right: 0;
+	}
+
+	.predoplata_templ > .right {
+	    width: 100%;
+	}
+
+	/*-- /Section 1 - Predoplata --*/
+
+	/*- Section 1 - Basket --*/
+
+	.basket_table .table_row .cell:nth-child(2) {
+	    width: 16%;
+	}
+
+	.basket_table .table_row .cell:nth-child(4) {
+	    width: 21%;
+	    padding-left: 5%;
+	}
+
+	.basket_table .table_row .cell:nth-child(5) {
+	    width: 23%;
+	    padding-left: 2%;
+	}
+
+	/*- .Section 1 - Basket --*/
+
+	/*-- Section 1 - Comparison --*/
+
+	.comparison_table .goods_row .cell:nth-child(1) {
+	    width: 176px;
+	}
+
+	.comparison_table .table_row .cell:nth-child(1) {
+	    width: 176px;
+	}
+
+	.comparison_table .table_row h3 {
+	    font-size: 15px;
+	    line-height: 29px;
+	}
+
+	.comparison_table .table_row p {
+	    font-size: 16px;
+	    line-height: 29px;
+	}
+
+	/*-- /Section 1 - Comparison --*/
+
+	/*-- Section 1 - Politic --*/
+
+	.politic_article h3 {
+	    padding: 22px 0 1px;
+	    font-size: 21px;
+	}
+
+	.politic_article p {
+	    font-size: 16px;
+	}
+
+	.politic_article ul li {
+	    font-size: 16px;
+	}
+
+	/*-- /Section 1 - Politic --*/
+
 }
 
 @media only screen and (max-width: 830px) {
@@ -661,6 +1055,20 @@
 
 	/*-- /Section 1 - News --*/
 
+	/*-- Section 1 - Remont --*/
+
+	.rem_thumbs {
+		display: block;
+	    margin: 0;
+	}
+
+	.rem_thumb {
+	    width: 100%;
+	    margin: 10px 0;
+	}
+
+	/*-- /Section 1 - Remont --*/
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -676,6 +1084,15 @@
 	h2 {
 	    font-size: 28px;
 	    line-height: 116%;
+	}
+
+	.h1_wrapp {
+	    padding: 20px 0;
+	}
+
+	.h1_wrapp h3 {
+	    font-size: 16px;
+	    line-height: 20px;
 	}
 
 	/*-- Header --*/
@@ -737,6 +1154,243 @@
 
 	/*-- /Section 5 - Main Page --*/
 
+	/*-- Section 1 - News Single --*/
+
+	.comment_item_title p {
+	    font-size: 17px;
+	    line-height: 21px;
+	}
+
+	.comment_text p {
+	    font-size: 16px;
+	    line-height: 21px;
+	}
+
+	.links_p {
+	    font-size: 16px;
+	    line-height: 21px;
+	}
+
+	.comment_item > div:nth-child(1) {
+	    width: 60px;
+	}
+
+	.comment_item > div:nth-child(2) {
+	    width: calc(100% - 60px);
+	}
+
+	.comment_item_wrapp:nth-child(1) {
+	    padding-left: 45px;
+	}
+
+	.comment_item .img_box {
+	    width: 50px;
+	    height: 50px;
+	}
+
+	/*-- /Section 1 - News Single --*/
+
+	/*-- Section 1 - Delivery --*/
+
+	.delivery_thumb {
+		padding: 20px 20px 12px 20px;
+	}
+
+	.delivery_thumb h3 {
+	    font-size: 21px;
+	    line-height: 26px;
+	}
+
+	.delivery_thumb p {
+	    padding: 5px 0;
+	    font-size: 16px;
+	    line-height: 20px;
+	}
+
+	/*-- /Section 1 - Delivery --*/
+
+	/*-- Section 2 - Delivery --*/
+
+	.map_thumbs {
+		margin: 0;
+	}
+
+	.map_thumb {
+	    width: 100%;
+	    margin: 12px 0;
+	}
+
+	.map_thumb p {
+	    padding: 4px 0;
+	    font-size: 16px;
+	    line-height: 20px;
+	}
+
+	/*-- /Section 2 - Delivery --*/
+
+	/*-- /Section 1 - Sotrudnichestvo --*/
+
+	.info_box_2 p {
+	    padding: 10px 0;
+	    font-size: 18px;
+	    line-height: 23px;
+	}
+
+	.info_box_2 p a {
+	    font-size: 18px;
+	    line-height: 23px;
+	}
+
+	/*-- /Section 1 - Sotrudnichestvo --*/
+
+	/*-- Section 1 - Remont --*/
+
+	.info_box_3 p {
+	    font-size: 14px;
+	    line-height: 22px;
+	}
+
+	.rem_thumb p {
+	    font-size: 14px;
+	    line-height: 22px;
+	}
+
+	/*-- /Section 1 - Remont --*/
+
+	/*-- Section 1 - Contacts --*/
+
+	.h2_wrapp_2 h2 {
+	    font-size: 35px;
+	    line-height: 41px;
+	}
+
+	/*-- /Section 1 - Contacts --*/
+
+	/*-- Section 1 - Basket --*/
+
+	.basket_templ_footer_row p {
+	    font-size: 19px;
+	    line-height: 29px;
+	}
+
+	.radio {
+	    margin: 0;
+	}
+
+	.radio label {
+	    font-size: 16px;
+	    line-height: 20px;
+	}
+
+	.table_2 p {
+		padding-left: 30px;
+	    font-size: 16px;
+	    line-height: 20px;
+	    font-weight: 500;
+	    padding-top: 5px;
+	}
+
+	/*-- /Section 1 - Basket --*/
+
+}
+
+@media only screen and (max-width: 700px) {
+	/*-- Section 1 - Sotrudnichestvo --*/
+
+	.thumbs_3 {
+		flex-wrap: wrap;
+		-webkit-flex-wrap: wrap;
+	}
+
+	.thumb_3 {
+	    width: calc(50% - 20px);
+	}
+
+	.thumb_3 .icon_box {
+	    width: 90px;
+	    height: 90px;
+	}
+
+	.thumb_3 .icon_box img {
+	    max-width: 70%;
+	    max-height: 70%;
+	}
+
+	/*-- /Section 1 - Sotrudnichestvo --*/
+
+	/*-- Section 1 - Contacts --*/
+
+	.contacts_thumb {
+		margin: 10px 0;
+	}
+
+	.contacts_thumb h3 {
+	    font-size: 16px;
+	    line-height: 22px;
+	}
+
+	.contacts_thumb p {
+	    font-size: 16px;
+	    line-height: 23px;
+	}
+
+	/*-- /Section 1 - Contacts --*/
+}
+
+@media only screen and (max-width: 650px) {
+
+	/*-- Section 1 - Basket --*/
+
+	.basket_table .table_row {
+	    display: flex;
+	    display: -webkit-flex;
+	    align-items: flex-start;
+	    -webkit-align-items: flex-start;
+	    flex-wrap: wrap;
+	    -webkit-flex-wrap: wrap;
+	}
+
+	.basket_table .table_header {
+		display: none;
+	}
+
+	.basket_table .resp_ttile {
+		display: block;
+		font-weight: 500;
+		padding-bottom: 3px;
+	}
+
+	.basket_table .table_row .cell {
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+
+	.basket_table .table_row .cell:nth-child(1) {
+	    width: 50%;
+	}
+
+	.basket_table .table_row .cell:nth-child(2) {
+	    width: 25%;
+	}
+
+	.basket_table .table_row .cell:nth-child(3) {
+	    width: 25%;
+	    text-align: right;
+	}
+
+	.basket_table .table_row .cell:nth-child(4) {
+	    width: 50%;
+	    padding-left: 0;
+	}
+
+	.basket_table .table_row .cell:nth-child(5) {
+	    width: 50%;
+	    padding-left: 0;
+	    text-align: right;
+	}
+
+	/*-- /Section 1 - Basket --*/
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -749,6 +1403,11 @@
 	.h2_wrapp p {
 	    font-size: 17px;
 	    line-height: 23px;
+	}
+
+	.h2_wrapp_2 h2 {
+	    font-size: 28px;
+	    line-height: 34px;
 	}
 
 	/*-- Header --*/
@@ -928,6 +1587,88 @@
 
 	/*-- /Section 1 - Card --*/
 
+	/*-- Section 1 - News Single --*/
+
+	.black_box .social_list_2 {
+	    margin: 0 -6px;
+	}
+
+	.social_list_2 li {
+	    padding: 6px;
+	}
+
+	/*-- /Section 1 - News Single --*/
+
+	/*-- Section 1 - News Single --*/
+
+	.commetns_form_wrapp {
+		display: block;
+	}
+
+	.commetns_form_wrapp .col_2 {
+	    width: 100%;
+	    padding: 10px 0;
+	}
+
+	.commetns_form_footer .checkbox {
+	    margin: 3px 0;
+	}
+
+	.textarea_wrapp textarea {
+	    height: 100px;
+	}
+
+	/*-- /Section 1 - News Single --*/
+
+	/*-- Section 1 - Contacts --*/
+
+	.contacts_thumb {
+		display: block;
+	    min-height: auto;
+	}
+
+	.contacts_thumb > div:nth-child(1) {
+	    width: 100%;
+	    height: 229px;
+	}
+
+	.contacts_thumb > div:nth-child(2) {
+	    width: 100%;
+	    padding: 12px 10px;
+	}
+
+	.info_thumb p {
+		padding: 5px 0;
+	    font-size: 16px;
+	    line-height: 20px;
+	}
+
+	/*-- /Section 1 - Contacts --*/
+
+	/*-- Section 1 - Basket --*/
+
+	.basket_templ {
+	    margin: 20px 0 0 0;
+	}
+
+	.basket_templ_footer_title h3 {
+	    font-size: 21px;
+	    line-height: 28px;
+	}
+
+	.basket_templ_footer_row > div:nth-child(1) {
+	    width: 100%;
+	    padding: 5px 10px 5px 15px;
+	}
+
+	.basket_templ_footer_row > div:nth-child(2) {
+	    width: 100%;
+	    padding: 5px 20px;
+	    text-align: left;
+	}
+
+	/*-- /Section 1 - Basket --*/
+
 	/*-- Footer --*/
 
 	.footer_cols .col:nth-child(1) {
@@ -961,6 +1702,11 @@
 
 	.wrapper {
 		padding-top: 53px;
+	}
+
+	.h1_wrapp h3 {
+	    font-size: 15px;
+	    line-height: 20px;
 	}
 
 	/*-- Header --*/
@@ -1069,6 +1815,135 @@
 
 	/*-- /Section 1 - Card --*/
 
+	/*-- Section 1 - News Single --*/
+
+	.checkbox_grey label {
+	    font-size: 14px;
+	    line-height: 20px;
+	}
+
+	.inlines p {
+	    font-size: 14px;
+	    line-height: 20px;
+	}
+
+	.blue_link {
+	    font-size: 14px;
+	    line-height: 20px;
+	}
+
+	.brovn_pill {
+	    padding: 5px 10px;
+	    font-size: 16px;
+	    line-height: 23px;
+	}
+
+	/*-- /Section 1 - News Single --*/
+
+	/*-- Section 2 - News Single --*/
+
+	.comment_item_wrapp:nth-child(1) {
+	    padding-left: 20px;
+	}
+
+	.comment_item_wrapp .comment_item_wrapp {
+	    padding-left: 30px;
+	}
+
+	.comment_text p {
+	    font-size: 13px;
+	    line-height: 18px;
+	}
+
+	.comment_item_title p {
+	    font-size: 14px;
+	    line-height: 16px;
+	}
+
+	.links_p {
+	    font-size: 12px;
+	    line-height: 16px;
+	}
+
+	.comment_item .blue_link {
+	    font-size: 12px;
+	    line-height: 16px;
+	}
+
+	/*-- /Section 2 - News Single --*/
+
+	/*-- /Section 1 - Sotrudnichestvo --*/
+
+	.info_box_2 p {
+	    font-size: 16px;
+	    line-height: 20px;
+	}
+
+	.info_box_2 p a {
+	    font-size: 16px;
+	    line-height: 20px;
+	}
+
+	/*-- /Section 1 - Sotrudnichestvo --*/
+
+	/*-- Section 1 - Contacts --*/
+
+	.contacts_thumbs_2 {
+	    margin: 0;
+	}
+
+	.contact_thumb_2 {
+	    width: 100%;
+	    margin: 10px 0;
+	}
+
+	/*-- /Section 1 - Contacts --*/
+
+	/*-- Section 1 - Predoplata --*/
+
+	.form_wrapp {
+	    padding: 14px 15px 5px 15px;
+	}
+
+	.form_title h3 {
+	    font-size: 20px;
+	    line-height: 27px;
+	}
+
+	.form_footer {
+		display: block;
+	}
+
+	.form_footer .col:nth-child(1) {
+	    width: 100%;
+	    padding: 5px 0;
+	}
+
+	.form_footer .col:nth-child(2) {
+		width: 100%;
+	    padding: 5px 0;
+	}
+
+	.input_two_cols .input_wrapp:nth-child(odd) {
+	    width: 100%;
+	    margin: 4px 0;
+	}
+
+	.input_two_cols .input_wrapp:nth-child(even) {
+	    width: 100%;
+	    margin: 4px 0;
+	}
+
+	/*-- /Section 1 - Predoplata --*/
+
+	/*-- Section 1 - Politic --*/
+
+	.h1_wrapp_resp h1 {
+	    font-size: 19px;
+	}
+
+	/*-- /Section 1 - Politic --*/
+
 }
 
 @media only screen and (max-width: 470px) {
@@ -1107,6 +1982,10 @@
 
 @media only screen and (max-width: 440px) {
 
+	h1 {
+	    font-size: 26px;
+	}
+
 	/*-- Section 1 - Catalog --*/
 
 	.goods_catalog {
@@ -1134,9 +2013,106 @@
 
 	/*-- /Section 1 - Card --*/
 
+	/*-- Section 1 - News Single --*/
+
+	.commetns_form_footer > div:nth-child(2) {
+		display: block;
+	}
+
+	.inlines {
+		display: block;
+	    margin: 0;
+	}
+
+	.inlines > div {
+		width: 100%;
+		padding: 2px 0;
+	}
+
+	/*-- /Section 1 - News Single --*/
+
+	/*-- Section 1 - Basket --*/
+
+	.basket_table .table_row .cell:nth-child(1) {
+	    width: 60%;
+	}
+
+	.basket_table .table_row .cell:nth-child(2) {
+	    width: 40%;
+	    text-align: right;
+	}
+
+	.basket_table .table_row .cell:nth-child(3) {
+	    width: 35%;
+	    text-align: left;
+	}
+
+	.basket_table .table_row .cell:nth-child(4) {
+	    width: 32%;
+	    padding-left: 0;
+	}
+
+	.basket_table .table_row .cell:nth-child(5) {
+	    width: 33%;
+	}
+
+	.table_2 .table_row {
+		display: block;
+		padding: 5px 0;
+		border-bottom: 1px solid #d8d8d8;
+	}
+
+	.table_2 .table_row .cell:nth-child(1) {
+	    width: 100%;
+	    padding-right: 0;
+	}
+
+	.table_2 .table_row .cell:nth-child(2) {
+	    width: 100%;
+	    padding-left: 0;
+	    text-align: left;
+	}
+
+	/*-- Section 1 - Basket --*/
+
+	/*-- Section 1 - Politic --*/
+
+	.politic_article h3:nth-child(1) {
+	    padding-top: 10px;
+	}
+
+	.politic_article h3 {
+	    font-size: 17px;
+	}
+
+	.politic_article p {
+		text-indent: 16px;
+	    font-size: 14px;
+	}
+
+	.politic_article ul li ul li {
+	    text-indent: 16px;
+	}
+
+	.politic_article ul li ul {
+	    padding-left: 16px;
+	}
+
+	.politic_article ul li {
+		text-indent: 16px;
+	    font-size: 14px;
+	}
+
+	/*-- /Section 1 - Politic --*/
+
 }
 
 @media only screen and (max-width: 400px) {
+
+	.h2_wrapp_2 h2 {
+	    font-size: 26px;
+	    line-height: 34px;
+	}
 
 	/*-- Header --*/
 
@@ -1178,6 +2154,13 @@
 	}
 
 	/*-- /Section 1 - Card --*/
+
+	/*-- Section 1 - Sotrudnichestvo --*/
+	.thumb_3 {
+	    width: 100%;
+	    margin: 10px 0;
+	}
+	/*-- /Section 1 - Sotrudnichestvo --*/
 
 }
 

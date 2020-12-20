@@ -1,11 +1,20 @@
+function getAnimation() {
+  $(".animate").each(function() {
+    if( $(this).offset().top <= $(document).scrollTop() + $(window).height() ) {
+      $(this).addClass("active");
+    }
+  });
+}
+
 function getSidebarPosition() {
-  if( $("#formLeft").length > 0 && bodyWidth > 600 ) {
+  if( $("#formLeft").length > 0 && bodyWidth > 900 ) {
     var sidebarWrappTopCoord, sidebarWrappBottomCoord, windowtopCoord, windowBottomCoord;
     sidebarWrappTopCoord = $(".form_sect_wrapp").offset().top;
     sidebarWrappRightCoord = bodyWidth - $("#rightCoord").offset().left - $("#rightCoord").width();
     sidebarWrappBottomCoord = $(".bottom_coord").offset().top;
     windowTopCoord = $(document).scrollTop();
     windowBottomCoord = windowTopCoord + $(window).height();
+    formWidth = $("#formWidth").width();
     if( windowTopCoord > sidebarWrappTopCoord ) {
       $("#formLeft").addClass("fixed");
       $("#formLeft").removeClass("absolute");
@@ -14,12 +23,13 @@ function getSidebarPosition() {
         $("#formLeft").addClass("absolute");
       }
       $("#formLeft").css({
-        "right" : sidebarWrappRightCoord + "px"
+        "right" : sidebarWrappRightCoord + "px",
+        "max-width" : formWidth + "px"
       });
     } else {
       $("#formLeft").removeClass("fixed");
       $("#formLeft").removeClass("absolute");
-      $("#formLeft").css({"right" : 0});
+      $("#formLeft").css({"right" : 0, "max-width":"770px"});
     }
   }
 }
@@ -30,17 +40,19 @@ e = d.documentElement,
 g = d.getElementsByTagName('body')[0],
 bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
 
-
 $(window).load(function() {
-
+  getAnimation();
 });
 
 $(window).resize(function() {
+  bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
   getSidebarPosition();
+  getAnimation();
 });
 
 $(document).scroll(function() {
   getSidebarPosition();
+  getAnimation();
 });
 
 $(document).ready(function() {
@@ -225,16 +237,7 @@ $(document).ready(function() {
                 verticalSwiping: false,
                 variableWidth: true
               }
-            },
-            // {
-            //   breakpoint: 480,
-            //   settings: {
-            //     vertical: false,
-            //     slidesToShow: 4,
-            //     verticalSwiping: false,
-            //     variableWidth: true
-            //   }
-            // }
+            }
           ]
       });
     }

@@ -285,22 +285,6 @@ a:active {
     -webkit-tap-highlight-color: transparent;
 }
 
-input {
-
-}
-
-input:focus {
-
-}
-
-textarea {
-
-}
-
-textarea:focus {
-
-}
-
 /*-------------------------------------------*/
 /* ----- REUSABLE COMPONENTS ------ */
 /*-------------------------------------------*/
@@ -445,10 +429,6 @@ textarea:focus {
 /* ----- HEADER ------ */
 /*-------------------------------------------*/
 
-.header_site {
-
-}
-
 .header_top_wrapp {
     background: #835647;
 }
@@ -492,10 +472,6 @@ textarea:focus {
 
 .contacts_item > div:nth-child(2) {
     width: calc(100% - 30px);
-}
-
-.contacts_item {
-
 }
 
 .contacts_item img {
@@ -611,10 +587,6 @@ textarea:focus {
     color: #fff;
 }
 
-.header_center_wrapp {
-
-}
-
 .header_center {
     display: flex;
     display: -webkit-flex;
@@ -664,25 +636,6 @@ textarea:focus {
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-/*    -webkit-transition-property: opacity;
-    -webkit-transition-duration: .1s;
-    -webkit-transition-timing-function: ease;
-
-    -moz-transition-property: opacity;
-    -moz-transition-duration: .1s;
-    -moz-transition-timing-function: ease;
-
-    -ms-transition-property: opacity;
-    -ms-transition-duration: .1s;
-    -ms-transition-timing-function: ease;
-
-    -o-transition-property: opacity;
-    -o-transition-duration: .1s;
-    -o-transition-timing-function: ease;
-
-    transition-property: opacity;
-    transition-duration: .1s;
-    transition-timing-function: ease;*/
 }
 
 .soc_list li a img.def {
@@ -1303,7 +1256,7 @@ textarea:focus {
 }
 
 .catalog_item_2 {
-    width: 165px;
+    width: 162px;
     min-height: 187px;
     margin: 5px;
 }
@@ -1326,10 +1279,6 @@ textarea:focus {
 .catalog_item_2 .img_box {
     height: 130px;
     margin: 10px 0 2px 0;
-}
-
-.catalog_item_2 .img_box img {
-
 }
 
 .catalog_item_2 .catalog_item_descript {
@@ -1513,67 +1462,15 @@ textarea:focus {
 .slider_2 .slide .img_box_1 {
     position: absolute;
     top: 0;
-    /*top: -90px;*/
-    /*opacity: 0;*/
     left: 0;
-/*    -webkit-transition-property: top, opacity;
-    -webkit-transition-duration: 1s;
-    -webkit-transition-timing-function: ease;
-
-    -moz-transition-property: top, opacity;
-    -moz-transition-duration: 1s;
-    -moz-transition-timing-function: ease;
-
-    -ms-transition-property: top, opacity;
-    -ms-transition-duration: 1s;
-    -ms-transition-timing-function: ease;
-
-    -o-transition-property: top, opacity;
-    -o-transition-duration: 1s;
-    -o-transition-timing-function: ease;
-
-    transition-property: top, opacity;
-    transition-duration: 1s;
-    transition-timing-function: ease;*/
 }
 
 .slider_2 .slide .img_box_2 {
     position: absolute;
-    /*top: 135px;*/
     top: 55px;
-    /*opacity: 0;*/
     right: 60px;
     z-index: 2;
-/*    -webkit-transition-property: top, opacity;
-    -webkit-transition-duration: 1s;
-    -webkit-transition-timing-function: ease;
-
-    -moz-transition-property: top, opacity;
-    -moz-transition-duration: 1s;
-    -moz-transition-timing-function: ease;
-
-    -ms-transition-property: top, opacity;
-    -ms-transition-duration: 1s;
-    -ms-transition-timing-function: ease;
-
-    -o-transition-property: top, opacity;
-    -o-transition-duration: 1s;
-    -o-transition-timing-function: ease;
-
-    transition-property: top, opacity;
-    transition-duration: 1s;
-    transition-timing-function: ease;*/
 }
-
-/*.slider_2 .slick-current .slide .img_box_1 {
-    top: 0;
-    opacity: 1;
-}
-
-.slider_2 .slick-current .slide .img_box_2 {
-    top: 55px;
-    opacity: 1;
-}*/
 
 .slider_2_arrows {
     width: 116px;
@@ -2562,7 +2459,6 @@ textarea:focus {
 
 .good_item {
     width: calc(20% - 30px);
-    /*min-height: 307px;*/
     margin: 11px 15px;
 }
 
@@ -3324,10 +3220,6 @@ p.price {
     margin: 0 -8px;
 }
 
-.add_goods_slider .slide {
-
-}
-
 .add_goods_slider .slide .good_item {
     width: 180px;
     margin: 8px;
@@ -3558,6 +3450,9 @@ p.price {
 
 .article_2 img {
     margin: 20px 0;
+    display: block;
+    width: auto;
+    max-width: 100%;
 }
 
 .article_2 p {
@@ -3637,7 +3532,7 @@ p.p_m + p.p_m {
     text-align: center;
 }
 
-.black_box > .row {
+.black_box > div {
     position: relative;
     z-index: 2;
 }
@@ -3905,6 +3800,10 @@ p.p_m + p.p_m {
     background: #EA030C;
 }
 
+.comments_scroll {
+    overflow-x: auto;
+}
+
 .comments {
     padding: 15px 0;
 }
@@ -3913,6 +3812,7 @@ p.p_m + p.p_m {
     display: flex;
     display: -webkit-flex;
     max-width: 880px;
+    min-width: 380px;
     margin: 18px 0;
 }
 
@@ -4124,14 +4024,13 @@ p.p_m + p.p_m {
 .thumbs_3 {
     display: flex;
     display: -webkit-flex;
-    margin: 0 -5px;
     padding: 10px 0 32px 0;
     border-bottom: 1px solid #C4C4C4;
 }
 
 .thumb_3 {
     width: calc(25% - 10px);
-    margin: 0 -5px;
+    margin: 0 10px;
 }
 
 .thumb_3 .icon_box {
@@ -4158,6 +4057,7 @@ p.p_m + p.p_m {
 }
 
 .thumb_3 .descript {
+    padding: 0 10px;
     text-align: center;
 }
 
@@ -4289,6 +4189,9 @@ p.p_m + p.p_m {
     display: flex;
     display: -webkit-flex;
     width: 231px;
+    min-height: 229px;
+    position: relative;
+    overflow: hidden;
 }
 
 .contacts_thumb > div:nth-child(2) {
@@ -4303,6 +4206,9 @@ p.p_m + p.p_m {
 .map_box_2 {
     width: 100%;
     height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .contacts_thumb h3 {
@@ -4339,6 +4245,7 @@ p.p_m + p.p_m {
 
 .two_cols_5 > .col_1 {
     width: 460px;
+    padding-right: 10px;
 }
 
 .two_cols_5 > .col_2 {
@@ -4419,10 +4326,12 @@ p.p_m + p.p_m {
 .predoplata_templ > .left {
     width: 587px;
     padding-right: 49px;
+    order: 1;
 }
 
 .predoplata_templ > .right {
     width: calc(100% - 587px);
+    order: 2;
 }
 
 .num_item {
@@ -4634,6 +4543,10 @@ p.num {
     padding: 9px 0 7px 0;
 }
 
+.resp_ttile {
+    display: none;
+}
+
 .basket_table .table_row.table_header {
     align-items: flex-end;
     -webkit-align-items: flex-end;
@@ -4819,12 +4732,16 @@ p.num {
 .basket_templ_footer_row > div:nth-child(1) {
     width: 55%;
     padding: 5px 10px 5px 15px;
+    position: relative;
+    z-index: 2;
 }
 
 .basket_templ_footer_row > div:nth-child(2) {
     width: 45%;
     padding: 5px 20px 5px 10px;
     text-align: right;
+    position: relative;
+    z-index: 2;
 }
 
 .basket_templ_footer_row p {
@@ -5307,3 +5224,147 @@ footer {
     display: block;
     max-width: 100%;
 }
+
+/*-- Animation --*/
+
+.leftSlice {
+    position: relative;
+    left: -3%;
+    opacity: 0;
+    -webkit-transition-property: left, opacity;
+    -webkit-transition-duration: .7s;
+    -webkit-transition-delay: .3s;
+    -webkit-transition-timing-function: ease-in-out;
+
+    -moz-transition-property: left, opacity;
+    -moz-transition-duration: .7s;
+    -moz-transition-delay: .3s;
+    -moz-transition-timing-function: ease-in-out;
+
+    -ms-transition-property: left, opacity;
+    -ms-transition-duration: .7s;
+    -ms-transition-delay: .3s;
+    -ms-transition-timing-function: ease-in-out;
+
+    -o-transition-property: left, opacity;
+    -o-transition-duration: .7s;
+    -o-transition-delay: .3s;
+    -o-transition-timing-function: ease-in-out;
+
+    transition-property: left, opacity;
+    transition-duration: .7s;
+    transition-delay: .3s;
+    transition-timing-function: ease-in-out;
+}
+
+.animate.active.leftSlice {
+    left: 0;
+    opacity: 1;
+}
+
+.fadeIn {
+    opacity: 0;
+    -webkit-transition-property: opacity;
+    -webkit-transition-duration: .7s;
+    -webkit-transition-delay: .3s;
+    -webkit-transition-timing-function: ease-in-out;
+
+    -moz-transition-property: opacity;
+    -moz-transition-duration: .7s;
+    -moz-transition-delay: .3s;
+    -moz-transition-timing-function: ease-in-out;
+
+    -ms-transition-property: opacity;
+    -ms-transition-duration: .7s;
+    -ms-transition-delay: .3s;
+    -ms-transition-timing-function: ease-in-out;
+
+    -o-transition-property: opacity;
+    -o-transition-duration: .7s;
+    --transition-delay: .3s;
+    -o-transition-timing-function: ease-in-out;
+
+    transition-property: opacity;
+    transition-duration: .7s;
+    transition-delay: .3s;
+    transition-timing-function: ease-in-out;
+}
+
+.animate.active.fadeIn {
+    opacity: 1;
+}
+
+.zoomFade {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    transform: scale(0);
+    opacity: 0;
+    -webkit-transition-property: opacity, transform;
+    -webkit-transition-duration: .7s;
+    -webkit-transition-delay: .3s;
+    -webkit-transition-timing-function: ease-in-out;
+
+    -moz-transition-property: opacity, transform;
+    -moz-transition-duration: .7s;
+    -moz-transition-delay: .3s;
+    -moz-transition-timing-function: ease-in-out;
+
+    -ms-transition-property: opacity, transform;
+    -ms-transition-duration: .7s;
+    -ms-transition-delay: .3s;
+    -ms-transition-timing-function: ease-in-out;
+
+    -o-transition-property: opacity, transform;
+    -o-transition-duration: .7s;
+    --transition-delay: .3s;
+    -o-transition-timing-function: ease-in-out;
+
+    transition-property: opacity, transform;
+    transition-duration: .7s;
+    transition-delay: .3s;
+    transition-timing-function: ease-in-out;
+}
+
+.animate.active.zoomFade {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1);
+}
+
+.fadeInUp {
+    position: relative;
+    bottom: -20px;
+    opacity: 0;
+    -webkit-transition-property: bottom, opacity;
+    -webkit-transition-duration: .7s;
+    -webkit-transition-delay: .3s;
+    -webkit-transition-timing-function: ease-in-out;
+
+    -moz-transition-property: bottom, opacity;
+    -moz-transition-duration: .7s;
+    -moz-transition-delay: .3s;
+    -moz-transition-timing-function: ease-in-out;
+
+    -ms-transition-property: bottom, opacity;
+    -ms-transition-duration: .7s;
+    -ms-transition-delay: .3s;
+    -ms-transition-timing-function: ease-in-out;
+
+    -o-transition-property: bottom, opacity;
+    -o-transition-duration: .7s;
+    -o-transition-delay: .3s;
+    -o-transition-timing-function: ease-in-out;
+
+    transition-property: bottom, opacity;
+    transition-duration: .7s;
+    transition-delay: .3s;
+    transition-timing-function: ease-in-out;
+}
+
+.animate.active.fadeInUp {
+    bottom: 0;
+    opacity: 1;
+}
+
+/*-- /Animation --*/

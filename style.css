@@ -201,6 +201,11 @@ textarea:focus::-moz-placeholder          {opacity: 0; transition: opacity .3s e
 textarea:focus:-moz-placeholder           {opacity: 0; transition: opacity .3s ease;}
 textarea:focus:-ms-input-placeholder      {opacity: 0; transition: opacity .3s ease;}
 
+.clearfix:after {
+    display: block;
+    content: "";
+}
+
 /*-------------------------------------------*/
 /* ----- DEFAULT STYLES ------ */
 /*-------------------------------------------*/
